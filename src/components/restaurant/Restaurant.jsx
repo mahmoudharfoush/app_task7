@@ -42,7 +42,7 @@ export default function Restaurant() {
 
    
     <div className='row'>
-          <h2 className='p-3 mb-5 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3'>Section Pizza</h2>
+          <h2 className='p-3 m-5 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3'>Section Pizza</h2>
     { Restaurant.map( (recipes)=>{
       return (
         <div className='col-md-4' key={recipes.recipe_id}>
